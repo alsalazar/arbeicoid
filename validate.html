@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+                    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  
+  <script>
+  $(document).ready(function(){
+    $("#myform").validate({
+   errorLabelContainer: "#messageBox",
+   wrapper: "li",
+   submitHandler: function() { alert("Submitted!") }
+})
+  });
+  </script>
+  
+</head>
+<body>
+  <script type="text/javascript" src="http://jzaefferer.github.com/jquery-validation/jquery.validate.js"></script>
+<ul id="messageBox"></ul> 
+ <form id="myform" action="/login" method="post"> 
+   <label>Firstname</label> 
+   <input name="fname" class="required" /> 
+   <label>Lastname</label> 
+   <input name="lname" title="Your lastname, please!" class="required" /> 
+   <br/>
+   <input type="submit" value="Submit"/>
+ </form>
+</body>
+</html>
