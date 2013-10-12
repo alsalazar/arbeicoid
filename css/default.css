@@ -1,0 +1,112 @@
+
+.header{
+  margin-top: -10px;
+  background-color: #f4f2ef;
+}
+
+.maincontent{
+	background-color: #E9DCCB;
+	min-height: 500px;
+}
+
+.content{
+	 margin:0 auto 0 auto; width:350px; 
+	 text-align: center;
+}
+
+.combo{
+	
+	width: 300px;
+
+}
+
+
+
+body{
+	width: 100%;
+}
+
+#divestado{
+	padding-top: 50px;
+}
+
+
+.empleo{
+  background-color: #EFEFEF;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+
+
+
+
+.gray{
+  background-color:#e5e7e9;
+  text-align: center;;
+}
+
+.graytext{
+  color:#4f4f4f !important;
+}
+
+.nombrepaquete{
+  color: #4d4d4d;
+  font-size: 20px;
+  font-weight: bold;;
+}
+
+.descripcionpaquete{
+  color: #2c0258;
+  font-size: 30px;
+  font-weight: bold;; 
+}
+
+.piepaquete{
+  color: #4d4d4d;
+  font-size: 20px;
+}
+
+.demorado{
+  color: #2c0258;
+  font-size: 30px;
+  line-height:45px;
+
+}
+
+.paquete{
+  padding-top: 5px;
+}
+
+hr.grayline {
+    height: 1px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+
+.paquetegratis{
+  font-size: 35px;
+  color: :#4d4d4d;
+}
+
+.bordeinferior{
+  /*border-bottom: 2px solid #c8cacc;
+  box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);*/
+  margin-top: 15px;
+}
+
+.left10{
+  padding-left: 10px;
+  border: 1px solid #FBCB09;
+}
+
+.purpleheader{
+  background-color: #6d4f91 !important;
+}
+
+.boldpurple{
+  color: #2c0258;
+  font-size: 16px;
+  font-weight: bold;
+}
+
