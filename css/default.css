@@ -1,10 +1,16 @@
 
 .header{
   background-color: #f4f2ef;
+  overflow-y: scroll !important;
 }
 
 .maincontent{
 	background-color: #E9DCCB;
+  overflow-y: scroll !important;
+  overflow:scroll; 
+
+
+  
 }
 
 .content{
@@ -13,6 +19,7 @@
    min-height: 500px;
    margin-right: 20px;
    margin-left: 20px;
+
 }
 
 .combo{
