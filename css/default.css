@@ -1,17 +1,18 @@
 
 .header{
-  margin-top: -10px;
   background-color: #f4f2ef;
 }
 
 .maincontent{
 	background-color: #E9DCCB;
-	min-height: 500px;
 }
 
 .content{
-	 margin:0 auto 0 auto; width:350px; 
+	 margin:0 auto 0 auto; width:auto; 
 	 text-align: center;
+   min-height: 500px;
+   margin-right: 20px;
+   margin-left: 20px;
 }
 
 .combo{
@@ -24,6 +25,8 @@
 
 body{
 	width: 100%;
+  height: 100%;
+
 }
 
 #divestado{
